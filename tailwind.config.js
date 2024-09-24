@@ -1,0 +1,37 @@
+const flowbite = require("flowbite-react/tailwind");
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    flowbite.content(),
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ["light","night"
+      // {
+      //   light: {
+      //     "btn-twitter": {
+      //       "background-color": "white",
+      //     },
+      //   },
+      // },
+      // {
+      //   dark: {
+      //     "btn-twitter": {
+      //       "background-color": "black",
+      //     },
+      //   },
+      // },
+    ],
+    lightTheme: "light",
+    darkTheme: "night",
+  },
+};
