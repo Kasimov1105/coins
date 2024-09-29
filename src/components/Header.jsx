@@ -20,7 +20,8 @@ function Header() {
         </Link>
         <div className="flex lg:gap-3 gap-2 items-center text-center  justify-between">
           <ThemeControl  />
-          <select  className="lg:select select-ghost text-xs rounded-md h-8 w-20 py-1 px-2 text-white bg-slate-600 lg:bg-slate-600 focus:text-white"
+         <div className="flex">
+         <select  className="lg:select select-ghost text-xs rounded-md lg:p-2 lg:w-28  h-8 w-20 py-1 px-2 text-white bg-slate-600 lg:bg-slate-600 focus:text-white"
             onChange={handleCurrencyChange}>
              <option value="INR">INR</option>
             <option value="USD">USD</option>
@@ -28,7 +29,8 @@ function Header() {
             <option value="TRY">TRY</option>
             <option value="RUB">RUB</option>
           </select>
-          <WatchListDrawer/>
+          <WatchListDrawer/> 
+         </div>
         </div>
       </div>
     </div>

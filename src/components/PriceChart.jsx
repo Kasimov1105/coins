@@ -58,7 +58,7 @@ function MyChart() {
         type='line'
         className="lg:h-[550px] lg:w-[1000px] w-[350px] m-auto"
       />
-      <div className='flex justify-between'> 
+      <div className='flex ml-2 justify-between'> 
         <button className=' lg:btn lg:btn-outline btn-primary btn btn-sm'>24 Hours</button>
         <button className='  lg:btn lg:btn-outline btn-primary btn btn-sm '>30 Days</button>
         <button className='  lg:btn lg:btn-outline btn-primary btn btn-sm '>3 Months</button>
