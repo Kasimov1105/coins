@@ -69,7 +69,7 @@ function Coins() {
               <td className='p-1' > <p className='text-[12px] md:text-[15px] lg:text-[16px]'> {getPriceDisplay(coin.current_price, currency)}</p></td>
               <td className='p-1'>
                 <div className="flex gap-2 text-center items-center">
-                  <IoEyeSharp className='text-xs lg:text-2xl'
+                  <IoEyeSharp className='text-base lg:text-2xl'
                     style={{
                       cursor: 'pointer',
                       color: isCoinSelected(coin) ? 'green' : 'gray',
