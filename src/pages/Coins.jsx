@@ -52,7 +52,7 @@ function Coins() {
           {filteredCoins.map((coin) => (
             <tr key={coin.id} className="bg-base-200">
               <td >
-                <div className='flex gap-3 flex-wrap justify-center text-center lg:justify-start '>
+                <div className='lg:flex gap-3 flex-wrap flex flex-col justify-center text-center lg:justify-start '>
                 <img
                   src={coin.image}
                   alt={coin.name}
